@@ -9,8 +9,8 @@
 	z-index: -1;
 }
 textarea{
-	height: 300px;
-	width: 600px;
+	height: 10%;
+	width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -18,7 +18,7 @@ textarea{
     border-radius: 10px;
     box-sizing: border-box;
     resize: none;
-    font-size: 40px;
+    font-size: 25px;
     margin-left: calc(50% - 300px);
     margin-bottom: 50px;
     transition: .5s;
@@ -31,23 +31,23 @@ input[type=text]{
     border: 1px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
-    font-size: 40px;
+   font-size: 25px;
 }
 #done{
-	width: 600px;
+	width: 50%;
     padding: 22px 30px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
-    font-size: 40px;
+    font-size: 25px;
     margin-left: calc(50% - 300px);
 }
 p{
 	text-align: center;
 	font-family: 'Cinzel', serif;
-	font-size: 40px;
+	font-size: 25px;
 }
 
 header{
@@ -82,7 +82,7 @@ ul li{
 }
 
 ul a{
-	font-size: 40px;
+	font-size: 35px;
 	color: #F3F3F3;
 	text-decoration: none;
 }
@@ -131,7 +131,7 @@ img#logo{
 	background-color: rgba(216,216,216,0.8);
 	border-radius: 30px;
 	font-family: 'Cinzel', serif;
-	font-size: 40px;
+	font-size: 25px;
 }
 #delete{
 	margin-left: 85%;
