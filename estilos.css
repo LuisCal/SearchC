@@ -25,6 +25,7 @@ textarea{
     transition: .5s;
 }
 input[type=text]{
+	width: 70%;
     padding: 22px 30px;
     margin: 8px 0;
     display: inline-block;
