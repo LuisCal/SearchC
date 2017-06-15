@@ -9,8 +9,10 @@
 	z-index: -1;
 }
 textarea{
-	height: 10%;
-	width: 50%;
+	position: relative;
+	left: 50px;
+	height: 20%;
+	width: 75%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -18,22 +20,22 @@ textarea{
     border-radius: 10px;
     box-sizing: border-box;
     resize: none;
-    font-size: 25px;
-    margin-left: calc(50% - 300px);
+    font-size: 18px;
     margin-bottom: 50px;
     transition: .5s;
 }
 input[type=text]{
-	width: 600px;
     padding: 22px 30px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
-   font-size: 25px;
+   font-size: 20px;
 }
 #done{
+	position: relative;
+	left: 25%;
 	width: 50%;
     padding: 22px 30px;
     margin: 8px 0;
@@ -42,12 +44,11 @@ input[type=text]{
     border-radius: 10px;
     box-sizing: border-box;
     font-size: 25px;
-    margin-left: calc(50% - 300px);
 }
 p{
 	text-align: center;
 	font-family: 'Cinzel', serif;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 header{
@@ -82,18 +83,20 @@ ul li{
 }
 
 ul a{
-	font-size: 35px;
+	font-size: 20px;
 	color: #F3F3F3;
 	text-decoration: none;
 }
 .button{
+	position: relative;
+	top: 1px;
 	display: inline-block;
 	background: rgba(186,184,182,0.5);
-	width: 200px;
-	height: 85px;
+	width: 100px;
+	height: 45px;
 	border-radius: 20px;
 	font-family: 'Merriweather Sans', sans-serif;
-	font-size: 40px;
+	font-size: 25px;
 }
 
 img#logo{
@@ -112,7 +115,9 @@ img#logo{
 	height: 500px;
 
 }
-
+.w{
+	margin-top: 20px;
+}
 #Main{
 	margin-top: 26%;
 	position: absolute;
@@ -127,29 +132,30 @@ img#logo{
 #info{
 
 	position:absolute;
+	padding-left: 15px;
+	top: 350px;
 	width: 100%;
 	background-color: rgba(216,216,216,0.8);
 	border-radius: 30px;
 	font-family: 'Cinzel', serif;
-	font-size: 25px;
+	font-size: 20px;
 }
 #delete{
-	margin-left: 85%;
 	position: absolute;
-	top: 1px;
+	top: 234px;
 	background-image: url("Delete.png");
-	background-size: 100px 100px;
+	background-size: 47px 47px;
 	background-color: rgba(57,68,143,.0);
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100px;
-	width: 100px;
+	height: 60px;
+	width: 60px;
 	border-radius: 40px;
 }
 #Agregar{
 	margin-top: 26%;
 	position: absolute;
-	height: 70%;
+	
 	width: 100%;
 	background-color: rgba(225,225,225,0.8);
 	border-bottom: 10px groove black;
@@ -169,25 +175,9 @@ img#logo{
 	z-index: -1;
 }
 #Ne{
-	margin-left: calc(50% - 300px);
+	position: relative;
+	left: 50px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-#De:hover{
-	width: 700px;
-	margin-left: 150px;
-	transition: .5s;
-}
-#Pro:hover{
-	width: 700px;
-	margin-left: 150px;
-	transition: .5s;
-}
-#Ne:hover{
-	width: 700px;
-	margin-left: 150px;
-	transition: .5s;
-}
-#texto{
-	margin-top: 200px;
-}
+

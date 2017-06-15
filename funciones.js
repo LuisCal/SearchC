@@ -48,7 +48,7 @@ function buscar(){
 		ubicacion = localStorage.getItem('ubicacion'+nombre);
 		document.getElementById('Descripcion').innerHTML += "<br>" + descripcion;
 		document.getElementById('promo').innerHTML += "<br>" + promociones;
-		mapaEstatico = "https://maps.googleapis.com/maps/api/staticmap? center="+ubicacion+"&scale=2&zoom=15&size=490x358&markers=color:blue%7Clabel:A%7C"+ubicacion;
+		mapaEstatico = "https://maps.googleapis.com/maps/api/staticmap? center="+ubicacion+"&scale=2&zoom=15&size=170x105&markers=color:blue%7Clabel:A%7C"+ubicacion;
 		document.getElementById('mapa').src=mapaEstatico;
 	}
 }
