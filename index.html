@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet"  type="text/css" href="estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Merriweather+Sans" rel="stylesheet">
+	<script type="text/javascript" src="funciones.js"></script>
+</head>
+<body onload="cargar()">
+<img src="C:/Users/luis/Desktop/taller/bg.jpeg" id="fondo">
+	<header>
+		<nav>
+			<ul>
+				<a onclick="agregar()"><li>Agregar</li></a>
+			</ul>
+				
+				<img id='logo' onclick="home()" src='logo.png'>
+
+			<ul>
+				<a onclick="main()"><li>Negocios</li></a>
+
+			</ul>
+		</nav>
+	</header>
+
+	<section id='Main'>
+		<input type="text" placeholder="Buscar negocio" id="in"><button class="button" onclick="buscar()">Buscar</button>
+		<div id="Ubicacion"><img id="mapa" src="">
+			<button id="delete" onclick="borrar()"></button>
+		</div>
+		
+		<div id="info"><p>Informacion</p>
+		<br>
+		<div id="Descripcion">Descripcion del negocio: </div><br><br>
+		<div id="promo">Promociones: </div>
+
+		</div>
+	</section>
+
+	<section id="Agregar">
+	<input type="text" id="Ne" placeholder="Nombre del negocio">
+	<p>Descripcion de negocio</p>
+	<textarea name="" id="De"></textarea>
+	<p>Promociones</p>
+	<textarea name="" id="Pro" ></textarea><br>
+	<button id="done" onclick="guardarNegocio()">Registrar</button>
+		
+	</section>
+	<section id="Inicio">
+	<div id="texto">
+	<p>SearchC es una app enfocada a pequeñas y medianas empresas.</p><br>
+	<p>Puedes registrar aqui tu negocio para que sea mas fácil que tus clientes te encuentren.</p><br>
+	<p>Solo tienes que llenar el formulario que se te presenta</p><br>
+	<p>NOTA:El lugar donde llenes el formulario sera el lugar que se registrara como tu negocio</p><br>
+	</div>
+	
+		
+	</section >
+	
+</body>
+<script>
+	function cargar(){
+		document.getElementById("logo").style.marginTop="0px";
+		document.getElementById("logo").style.width="85px";
+		document.getElementById("logo").style.height="85px";
+		document.getElementById("logo").style.transition="3s";
+	}
+	function agregar(){
+		document.getElementById("Agregar").style.display="block";
+        document.getElementById("Main").style.display="none";
+        document.getElementById("Inicio").style.display="none";
+	}
+	function main(){
+		document.getElementById("Main").style.display="block";
+        document.getElementById("Agregar").style.display="none";
+        document.getElementById("Inicio").style.display="none";
+	}
+</script>
+</html>
